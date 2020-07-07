@@ -2,7 +2,7 @@ package com.example.demo.model;
 
 public class Role {
     private Long id;
-    private String name;
+    private String ten;
 
 
     public Long getId() {
@@ -14,10 +14,10 @@ public class Role {
     }
 
     public String getName() {
-        return name;
+        return ten;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.ten = name;
     }
 }
